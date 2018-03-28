@@ -1,6 +1,17 @@
 {
+  "name": "zendesk-to-ms-qna",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js"
+  },
   "devDependencies": {
     "standard": "^11.0.1",
     "yarn-upgrade-all": "^0.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "striptags": "^3.1.1"
   }
 }
